@@ -1,2 +1,2 @@
-# modal-popup
+# modalpopup
 Modal Popup (Bootstrap)

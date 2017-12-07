@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Modal Popup</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+      Launch demo modal
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4>Modal title</h4>
+            </div>
+            <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde repellendus maxime nihil commodi delectus, neque asperiores, magni aperiam quasi molestias consequatur et totam? Qui eos aut cumque vel voluptate, possimus!</p>
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>  
+            </div> 
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap-transitions.min.js"></script>
+    <script src="js/bootstrap-popup.min.js"></script>    
+    <script src="js/main.js"></script>
+  </body>
+</html>
